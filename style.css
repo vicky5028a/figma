@@ -1,0 +1,261 @@
+body {
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.toparea {
+    background: #93AE88 url('bg.png') no-repeat;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+.logoarea {
+    background: rgba(255, 255, 255, 0.485);
+    padding: 1% 0;
+}
+.link a.link{
+    color:red;
+    d
+}
+/*navbar*/
+.navbar{
+    background:transparent !important;
+margin-left:10% ;
+}
+.nav-link{
+    color:rgb(7, 67, 44) !important;
+}
+.active{
+    color:rgb(13, 74, 51) !important;
+}
+
+.loginarea{
+    padding: 1%;
+}
+
+.top {
+    display: inline;
+    margin: 2%;
+}
+/*container of header*/
+.header-row {
+    padding: 10% 0;
+    text-align: left;
+}
+
+/* text*/
+.header-text {
+    padding-right:20%;
+}
+
+/*header shop buttton*/
+.button {
+    padding: 10px;
+    background: #014B40;
+    display: inline;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.explore {
+    background: transparent;
+    margin-left: 2%;
+}
+
+.flower-area {
+    background: #ffffff;
+    padding: 5%;
+    margin: 0;
+}
+
+.head{
+    background: white;
+    font-family: Open Sans;
+    text-align: left;
+    color: #014B40;
+}
+
+.flower-view{
+    text-align: right;
+    background: white;
+    font-family: Open Sans;
+    padding: 1% 5%;
+    color: #014B40;
+}
+/* flower box */
+.box {
+    text-align: center;
+    background: rgb(255, 255, 255);
+    padding: 0%;
+    margin: 10% 0;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10%;
+
+}
+
+.box img {
+    width: 100%;
+}
+
+/* hover on image */
+.imagetext {
+    position: absolute;
+    bottom: -50%;
+    padding: 5%;
+    margin-right: 10%;
+    width: 100%;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to top, rgb(97, 80, 80), transparent);
+    transition: all 3s;
+}
+
+.imagetext img {
+    width: 20%;
+    margin-left: 70%;
+
+}
+
+.box:hover .imagetext {
+    bottom: 0;
+}
+.hover img {
+    transition: all 3s ;
+}
+
+
+.hover img:hover {
+    transform: rotate(10deg) scale(1.2, 1.2);
+}
+
+.searcharea {
+    text-align: center;
+    padding:0%;
+    margin: 0;
+    background: #014B40 url('searcharea.png') no-repeat;
+}
+
+.jv img {
+    margin: 29% 0 29% 80%;
+    width: 20%;
+}
+
+.find img {
+    margin: 29% 80% 29% 0;
+    width: 20%;
+}
+
+.form {
+    width: 100%;
+    margin-top: 6%;
+}
+
+.heading {
+    background: white;
+    font-family: Open Sans;
+    text-align: left;
+    color: #014B40;
+}
+
+.flower-view {
+    text-align: right;
+    background: white;
+    font-family: Open Sans;
+    padding: 1% 5%;
+    color: #014B40;
+}
+
+.delivery-area{
+    text-align: center;
+    background: rgb(255, 255, 255);
+    margin:0 auto;
+    padding: 2%  5% 8%;
+}
+
+ .delivery-img{
+    border-radius: 20px;
+    background:linear-gradient(rgba(18, 18, 18, 0.5)),url("payment.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 2% 5% 10%;
+}
+.delivery-area h1{
+    margin:2% auto 1%;
+}
+.delivery-area h4{
+    margin:2% auto 1%;
+    color: #736e6e;
+}
+.delivery-area h5{
+    margin:3%;
+    color: rgb(204, 207, 209);
+}
+ 
+.footerarea {
+    background: #014B40;
+    color: #ffffff;
+    padding: 0;
+    text-align: left;
+}
+.email-area{
+    background: #1A5D53;
+    color:white;
+
+    width: 100%;
+    border-radius: 10px;
+}
+.email-area input{
+    background: none;
+    color: white;
+    width: 80%;
+    border:none;
+    padding: 5%;
+    display: inline;
+}
+.send-area{
+    background:#014B40;
+    padding:3% 5%;
+    margin-left: 2%;
+    border-radius: 10px;
+    display: inline;
+}
+
+.footer-content {
+    padding: 3% 8%;
+}
+.footer-content p img{
+    width: 100%;
+}
+
+.footer-paragraph {
+    padding: 3% 2%;
+}
+.footer-paragraph {
+    padding: 3% 1%;
+}
+
+.copyarea {
+    background: #1A5D53;
+    margin: 2% 5% 5% 5%;
+    padding: 1.5%;
+    color: white;
+    text-align: left;
+    border-radius: 10px;
+}
+.copyarea-right{
+    padding: 10px;
+    background:transparent;
+    display: inline;
+}
+
+.social{
+    background: transparent;
+    margin-left: 2%;
+    padding-left: 60%;
+}
+.social i{
+            margin: 1%;
+}
